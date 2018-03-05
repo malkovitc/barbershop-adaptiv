@@ -1,0 +1,52 @@
+.slider {
+  font-size: 0;
+  position: relative;
+  text-align: center;
+
+  &__btn {
+    border: 1px solid $color-white;
+    display: inline-block;
+    margin: 0 13px;
+    margin-top: 5px;
+    height: 5px;
+    transform: rotate(45deg);
+    vertical-align: top;
+    width: 5px;
+
+    &--feedback {
+      border-color: $color-border-slider;
+    }
+
+  }
+
+}
+
+@media #{$break-medium} {
+
+  .slider {
+
+    &--advantages {
+      display: none;
+    }
+
+    &--feedback {
+      background-color: $bg-color-news;
+      bottom: -17px;
+      position: absolute;
+      right: 50%;
+      transform: translateX(50%);
+      width: 125px;
+    }
+
+  }
+
+}
+
+@media #{$break-large} {
+
+  .slider--feedback {
+    background-color: transparent;
+    bottom: -65px;
+  }
+
+}

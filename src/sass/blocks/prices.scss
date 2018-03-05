@@ -1,0 +1,248 @@
+.prices {
+  position: relative;
+
+  &__header {
+    background-color: $bg-color-header;
+    padding: 0 30px;
+    padding-bottom: 26px;
+    padding-top: 27px;
+    text-align: center;
+  }
+
+  &__title {
+    @include title;
+
+    display: block;
+    margin-bottom: 16px;
+    padding: 0 20px;
+  }
+
+  &__text {
+    margin: 0;
+  }
+
+  &__list {
+    border-collapse: collapse;
+    color: $color-white;
+    width: 100%;
+
+    tr {
+      background-color: #404040;
+
+      &:nth-child(2) {
+        background-color: #4e4e4e;
+      }
+
+      &:nth-child(3) {
+        background-color: #353535;
+      }
+
+      &:nth-child(4) {
+        background-color: #404040;
+      }
+
+    }
+
+  }
+
+  &__value,
+  &__field {
+    padding: 20px;
+    padding-bottom: 18px;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  &__value {
+    font-size: $font-size-extra;
+    font-weight: bold;
+    line-height: $line-height-big;
+    padding-right: 0;
+
+    sup {
+      padding-left: 7px;
+      top: -11px;
+    }
+
+  }
+
+  &__field {
+    font-size: $font-size-base;
+    line-height: $line-height-xsmall;
+    text-align: right;
+    padding-left: 0;
+    padding-top: 21px;
+  }
+
+  &__note {
+    color: $color-note;
+    font-size: 20px;
+    left: 51px;
+    padding: 21px 0;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+
+    sup {
+      top: -2px;
+    }
+
+  }
+
+}
+
+@media #{$break-medium} {
+
+  .prices {
+    @include container-fluid;
+
+    position: relative;
+
+    &__header {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: -184px;
+      min-height: 129px;
+      padding: 31px 22px;
+      padding-bottom: 24px;
+
+      &::before {
+        border: 11px solid transparent;
+        border-top: 11px solid $bg-color-header;
+        border-right: 11px solid $bg-color-header;
+        content: "";
+        left: -22px;
+        position: absolute;
+        top: 42px;
+      }
+
+    }
+
+    &__title {
+      font-size: $font-size-extra;
+      line-height: $line-height-big;
+      text-align: left;
+      text-transform: none;
+      width: 40%;
+    }
+
+    &__text {
+      padding: 0;
+      padding-left: 53px;
+      padding-top: 4px;
+      text-align: left;
+      width: 35%;
+    }
+
+    &__list {
+      display: block;
+
+      tbody {
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+      }
+
+      tr {
+        box-sizing: border-box;
+        display: block;
+        padding-bottom: 27px;
+        padding-left: 34px;
+        padding-right: 36px;
+        padding-top: 25px;
+        width: 50%;
+      }
+
+    }
+
+    &__value,
+    &__field {
+      display: block;
+      padding: 0;
+      text-align: left;
+      width: auto;
+    }
+
+    &__value {
+      font-size: $font-size-huge;
+      line-height: $line-height-huge;
+      padding-bottom: 8px;
+
+      sup {
+        font-size: $font-size-extra;
+        padding-left: 15px;
+        top: -25px;
+      }
+    }
+
+    &__field {
+      font-size: $font-size-medium;
+      line-height: $line-height-base;
+      padding-left: 2px;
+
+      br {
+        display: none;
+      }
+
+    }
+
+    &__note {
+      color: $color-note;
+      font-size: $font-size-medium;
+      left: 42px;
+      padding: 0;
+      position: absolute;
+      text-align: left;
+      top: 129px;
+      width: 50%;
+    }
+
+  }
+
+}
+
+@media #{$break-large} {
+
+  .prices {
+    background-color: transparent;
+    display: flex;
+    margin-top: -159px;
+
+    &__header {
+      flex-direction: column;
+      margin: 0;
+      padding-left: 40px;
+      padding-right: 50px;
+      width: 345px;
+
+      &::before {
+        top: 37px;
+      }
+
+    }
+
+    &__title {
+      padding: 0;
+      margin-bottom: 42px;
+      width: auto;
+    }
+
+    &__text {
+      padding: 0;
+      width: auto;
+    }
+
+    &__list {
+      display: flex;
+      margin: 0;
+    }
+
+    &__note {
+      left: 41px;
+      top: 264px;
+    }
+
+  }
+
+}
