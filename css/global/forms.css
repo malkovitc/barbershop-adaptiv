@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$base-font".
-        on line 9 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/forms.scss
+        on line 9 of /Users/jm/Documents/barbershop-adaptiv/sass/global/forms.scss
 
 4: textarea,
 5: select,
@@ -15,7 +15,7 @@ Error: Undefined variable: "$base-font".
 14: }
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/global/forms.scss:9
+/Users/jm/Documents/barbershop-adaptiv/sass/global/forms.scss:9
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$base-font\".\A         on line 9 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/forms.scss\A \A 4: textarea,\A 5: select,\A 6: input[type=\"password\"] {\A 7:   box-sizing: border-box;\A 8:   outline: none;\A 9:   font-family: $base-font;\A 10: \A 11:   &:focus {\A 12: \A 13:   }\A 14: }"; }
+  content: "Error: Undefined variable: \"$base-font\".\A         on line 9 of /Users/jm/Documents/barbershop-adaptiv/sass/global/forms.scss\A \A 4: textarea,\A 5: select,\A 6: input[type=\"password\"] {\A 7:   box-sizing: border-box;\A 8:   outline: none;\A 9:   font-family: $base-font;\A 10: \A 11:   &:focus {\A 12: \A 13:   }\A 14: }"; }

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$color-white".
-        on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-form.scss
+        on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-form.scss
 
 1: .modal-form {
 2:   background-color: $color-white;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$color-white".
 7:   position: absolute;
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-form.scss:2
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-form.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-white\".\A         on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-form.scss\A \A 1: .modal-form {\A 2:   background-color: $color-white;\A 3:   bottom: 590px;\A 4:   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.75);\A 5:   display: none;\A 6:   height: 317px;\A 7:   position: absolute;"; }
+  content: "Error: Undefined variable: \"$color-white\".\A         on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-form.scss\A \A 1: .modal-form {\A 2:   background-color: $color-white;\A 3:   bottom: 590px;\A 4:   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.75);\A 5:   display: none;\A 6:   height: 317px;\A 7:   position: absolute;"; }

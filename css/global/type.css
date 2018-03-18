@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$break-medium".
-        on line 52 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/type.scss
+        on line 52 of /Users/jm/Documents/barbershop-adaptiv/sass/global/type.scss
 
 47:   font-size: $font-size-big;
 48:   font-weight: bold;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$break-medium".
 57:   }
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/global/type.scss:52
+/Users/jm/Documents/barbershop-adaptiv/sass/global/type.scss:52
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -57,4 +57,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$break-medium\".\A         on line 52 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/type.scss\A \A 47:   font-size: $font-size-big;\A 48:   font-weight: bold;\A 49:   line-height: $line-height-medium;\A 50: }\A 51: \A 52: @media #{$break-medium} {\A 53: \A 54:   b {\A 55:     font-size: $font-size-extra;\A 56:     line-height: $line-height-big;\A 57:   }"; }
+  content: "Error: Undefined variable: \"$break-medium\".\A         on line 52 of /Users/jm/Documents/barbershop-adaptiv/sass/global/type.scss\A \A 47:   font-size: $font-size-big;\A 48:   font-weight: bold;\A 49:   line-height: $line-height-medium;\A 50: }\A 51: \A 52: @media #{$break-medium} {\A 53: \A 54:   b {\A 55:     font-size: $font-size-extra;\A 56:     line-height: $line-height-big;\A 57:   }"; }

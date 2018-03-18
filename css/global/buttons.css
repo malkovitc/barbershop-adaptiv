@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$bg-color-button".
-        on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/buttons.scss
+        on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/global/buttons.scss
 
 1: .btn {
 2:   background-color: $bg-color-button;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$bg-color-button".
 7:   display: inline-block;
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/global/buttons.scss:2
+/Users/jm/Documents/barbershop-adaptiv/sass/global/buttons.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bg-color-button\".\A         on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/global/buttons.scss\A \A 1: .btn {\A 2:   background-color: $bg-color-button;\A 3:   border: 1px solid $color-border-news;\A 4:   box-sizing: border-box;\A 5:   color: $color-black;\A 6:   cursor: pointer;\A 7:   display: inline-block;"; }
+  content: "Error: Undefined variable: \"$bg-color-button\".\A         on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/global/buttons.scss\A \A 1: .btn {\A 2:   background-color: $bg-color-button;\A 3:   border: 1px solid $color-border-news;\A 4:   box-sizing: border-box;\A 5:   color: $color-black;\A 6:   cursor: pointer;\A 7:   display: inline-block;"; }

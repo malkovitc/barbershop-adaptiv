@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$bg-color-modal".
-        on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-personal.scss
+        on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-personal.scss
 
 1: .modal-personal {
 2:   background-color: $bg-color-modal;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$bg-color-modal".
 7:   position: absolute;
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-personal.scss:2
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-personal.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -58,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bg-color-modal\".\A         on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/modal-personal.scss\A \A 1: .modal-personal {\A 2:   background-color: $bg-color-modal;\A 3:   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.75);\A 4:   display: none;\A 5:   height: 408px;\A 6:   right: 50%;\A 7:   position: absolute;"; }
+  content: "Error: Undefined variable: \"$bg-color-modal\".\A         on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/modal-personal.scss\A \A 1: .modal-personal {\A 2:   background-color: $bg-color-modal;\A 3:   box-shadow: 0 30px 50px 0 rgba(0, 0, 0, 0.75);\A 4:   display: none;\A 5:   height: 408px;\A 6:   right: 50%;\A 7:   position: absolute;"; }

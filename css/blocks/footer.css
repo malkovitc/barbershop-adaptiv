@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$color-border-footer".
-        on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/footer.scss
+        on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/footer.scss
 
 1: .footer {
 2:   border: 1px solid $color-border-footer;
@@ -11,7 +11,7 @@ Error: Undefined variable: "$color-border-footer".
 7: @media #{$break-medium} {
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/footer.scss:2
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/footer.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color-border-footer\".\A         on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/footer.scss\A \A 1: .footer {\A 2:   border: 1px solid $color-border-footer;\A 3:   color: $color-white;\A 4:   margin-top: 35px;\A 5: }\A 6: \A 7: @media #{$break-medium} {"; }
+  content: "Error: Undefined variable: \"$color-border-footer\".\A         on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/footer.scss\A \A 1: .footer {\A 2:   border: 1px solid $color-border-footer;\A 3:   color: $color-white;\A 4:   margin-top: 35px;\A 5: }\A 6: \A 7: @media #{$break-medium} {"; }

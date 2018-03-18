@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$break-medium".
-        on line 24 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/logo.scss
+        on line 24 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/logo.scss
 
 19:     padding-left: 0;
 20:   }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$break-medium".
 29:     background-repeat: no-repeat;
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/logo.scss:24
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/logo.scss:24
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -57,4 +57,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$break-medium\".\A         on line 24 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/logo.scss\A \A 19:     padding-left: 0;\A 20:   }\A 21: \A 22: }\A 23: \A 24: @media #{$break-medium} {\A 25: \A 26:   .logo {\A 27:     background-image: url(\"../img/bg-tablet.jpg\");\A 28:     background-position: center -74px;\A 29:     background-repeat: no-repeat;"; }
+  content: "Error: Undefined variable: \"$break-medium\".\A         on line 24 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/logo.scss\A \A 19:     padding-left: 0;\A 20:   }\A 21: \A 22: }\A 23: \A 24: @media #{$break-medium} {\A 25: \A 26:   .logo {\A 27:     background-image: url(\"../img/bg-tablet.jpg\");\A 28:     background-position: center -74px;\A 29:     background-repeat: no-repeat;"; }

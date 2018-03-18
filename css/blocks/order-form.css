@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'container-fluid'.
-        on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss, in `container-fluid'
-        from line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss
+        on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss, in `container-fluid'
+        from line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss
 
 1: .order-form {
 2:   @include container-fluid();
@@ -12,8 +12,8 @@ Error: Undefined mixin 'container-fluid'.
 7: 
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss:2:in `container-fluid'
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss:2
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss:2:in `container-fluid'
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss:2
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -62,4 +62,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'container-fluid'.\A         on line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss, in `container-fluid'\A         from line 2 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/order-form.scss\A \A 1: .order-form {\A 2:   @include container-fluid();\A 3: \A 4:   margin: 0 20px;\A 5:   padding-bottom: 39px;\A 6:   text-align: center;\A 7: "; }
+  content: "Error: Undefined mixin 'container-fluid'.\A         on line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss, in `container-fluid'\A         from line 2 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/order-form.scss\A \A 1: .order-form {\A 2:   @include container-fluid();\A 3: \A 4:   margin: 0 20px;\A 5:   padding-bottom: 39px;\A 6:   text-align: center;\A 7: "; }

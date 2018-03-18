@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$bg-color-header".
-        on line 5 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/prices.scss
+        on line 5 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/prices.scss
 
 1: .prices {
 2:   position: relative;
@@ -14,7 +14,7 @@ Error: Undefined variable: "$bg-color-header".
 10:   }
 
 Backtrace:
-/Users/jm/Documents/barbershop-yusupov/src/sass/blocks/prices.scss:5
+/Users/jm/Documents/barbershop-adaptiv/sass/blocks/prices.scss:5
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 /Applications/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -72,4 +72,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$bg-color-header\".\A         on line 5 of /Users/jm/Documents/barbershop-yusupov/src/sass/blocks/prices.scss\A \A 1: .prices {\A 2:   position: relative;\A 3: \A 4:   &__header {\A 5:     background-color: $bg-color-header;\A 6:     padding: 0 30px;\A 7:     padding-bottom: 26px;\A 8:     padding-top: 27px;\A 9:     text-align: center;\A 10:   }"; }
+  content: "Error: Undefined variable: \"$bg-color-header\".\A         on line 5 of /Users/jm/Documents/barbershop-adaptiv/sass/blocks/prices.scss\A \A 1: .prices {\A 2:   position: relative;\A 3: \A 4:   &__header {\A 5:     background-color: $bg-color-header;\A 6:     padding: 0 30px;\A 7:     padding-bottom: 26px;\A 8:     padding-top: 27px;\A 9:     text-align: center;\A 10:   }"; }
